@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.container > .row {
+    width: 1000px;
+    margin: 0 calc(50% - 500px);
+    background-color: yellow;
+}
+
+.container > .row-short {
+    width: 600px;
+    margin: 0 calc(50% - 300px);
+    background-color: yellow;
+}
+
+@media (max-width: 1100px) {
+    .container > .row {
+        width: 800px;
+        margin: 0 calc(50% - 400px);
+        background-color: orange;
+    }
+}
+
+@media (max-width: 900px) {
+    .container > .row {
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+        background-color: violet;
+    }
+}
+
+@media (max-width: 700px) {
+    .container > .row {
+        width: 400px;
+        margin: 0 calc(50% - 200px);
+        background-color: green;
+    }
+}
+
+.container > .row-short {
+    width: 400px;
+    margin: 0 calc(50% - 200px);
+}
+
+@media (max-width: 460px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.container .row {
+    width: 100%;
+    margin: 0;
+}
+
+.container > .row-short {
+    width: 100%;
+    margin: 0;
+}
