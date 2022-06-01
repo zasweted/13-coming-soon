@@ -46,6 +46,43 @@ section.bg-main {
 /* HERO-end */
 
 /* MAIN-start */
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left-column {
+    width: 50%;
+}
+
+.right-column { 
+    width: 40%;   
+}
+
+.section-title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.section-description {
+    font-size: 18px;
+}
+
+.section-description a {
+    color: red;
+    text-decoration: none;
+}
+.section-description > a:hover {
+    text-decoration: underline;
+}
 /* MAIN-end */
 
 /* FOOTER-start */
