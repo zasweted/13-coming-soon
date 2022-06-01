@@ -14,5 +14,31 @@
 
 /* custom style goes below this comment line */
 
+/* HERO-start */
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
 
+.hero > .logo {
+    height: 60px;
+}
 
+.hero > .title {
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.hero > .description {
+    font-size: 20px;
+}
+/* HERO-end */
+
+/* MAIN-start */
+/* MAIN-end */
+
+/* FOOTER-start */
+/* FOOTER-end */
