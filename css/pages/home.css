@@ -3,7 +3,7 @@
 @import "../base/layout.css";
 
 /* 3rd-party */
-@import "../3rd-party/font-awesome.min.css";
+@import "../../css/3rd-party/font-awesome.min.css";
 
 /* components */
 @import "../components/button.css";
@@ -50,7 +50,6 @@ section.bg-main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 200px;
 }
 
 .column {
@@ -74,6 +73,7 @@ section.bg-main {
 
 .section-description {
     font-size: 18px;
+    color: #777;
 }
 
 .section-description a {
@@ -86,6 +86,22 @@ section.bg-main {
 /* MAIN-end */
 
 /* FOOTER-start */
+footer.container {
+    padding-top: 0;
+}
+
+footer > .row {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.row i {
+    font-size: 18px;
+    color: #fff;
+}
+
 .footer-bottom {
     display: flex;
     flex-direction: column;
@@ -106,7 +122,7 @@ section.bg-main {
     gap: 20px;
 }
 
-.footer-bottom a{
+.footer-bottom a {
     color: #fff;
 }
 /* FOOTER-end */
