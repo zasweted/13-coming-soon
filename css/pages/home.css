@@ -3,7 +3,7 @@
 @import "../base/layout.css";
 
 /* 3rd-party */
-@import "../3rd-party/font-awesome.min.css";
+@import "../../css/3rd-party/font-awesome.min.css";
 
 /* components */
 @import "../components/button.css";
@@ -28,6 +28,7 @@ section.bg-main {
     flex-direction: column;
     gap: 30px;
     text-align: center;
+    align-items: center;
 }
 
 .hero > .logo {
@@ -50,7 +51,6 @@ section.bg-main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 200px;
 }
 
 .column {
@@ -74,6 +74,7 @@ section.bg-main {
 
 .section-description {
     font-size: 18px;
+    color: #777;
 }
 
 .section-description a {
@@ -86,4 +87,64 @@ section.bg-main {
 /* MAIN-end */
 
 /* FOOTER-start */
+footer.container {
+    padding-top: 0;
+}
+
+footer > .row {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fffa;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.footer-bottom > .logo {
+    height: 60px;
+    margin: 40px 0;
+}
+
+.futeriukai > * {
+    position: relative;
+}
+
+.footer-bottom > .futeriukai {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-bottom a {
+    color: #fff;
+}
 /* FOOTER-end */
+
+
+
+.futeriukai > *::after {
+    content: '';
+    display: inline-block;
+    width: 0.8px;
+    height: 20px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translate(50%, -50%);
+}
+
+.futeriukai > *:last-child::after {
+    display: none;
+}
+
+
+
