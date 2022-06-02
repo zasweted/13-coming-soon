@@ -116,13 +116,36 @@ footer > .row {
     margin: 40px 0;
 }
 
+.futeriukai > * {
+    position: relative;
+}
+
 .footer-bottom > .futeriukai {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .footer-bottom a {
     color: #fff;
 }
 /* FOOTER-end */
+
+
+
+.futeriukai > *::after {
+    content: '';
+    display: inline-block;
+    width: 0.8px;
+    height: 20px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translate(50%, -50%);
+}
+
+.futeriukai > *:last-child::after {
+    display: none;
+}
