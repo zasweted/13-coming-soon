@@ -97,11 +97,6 @@ footer > .row {
     border-bottom: 2px solid #fff;
 }
 
-.row i {
-    font-size: 18px;
-    color: #fff;
-}
-
 .footer-bottom {
     display: flex;
     flex-direction: column;
@@ -149,3 +144,6 @@ footer > .row {
 .futeriukai > *:last-child::after {
     display: none;
 }
+
+
+
