@@ -145,9 +145,6 @@ footer.container {
 .footer-bottom a {
     color: #fff;
 }
-/* FOOTER-end */
-
-
 
 .futeriukai > *::after {
     content: '';
@@ -165,3 +162,5 @@ footer.container {
 .futeriukai > *:last-child::after {
     display: none;
 }
+
+/* FOOTER-end */
