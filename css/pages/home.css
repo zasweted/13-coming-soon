@@ -44,6 +44,23 @@ section.bg-main {
 .hero > .description {
     font-size: 20px;
 }
+
+.subscribe {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+
+.form.subscribe > input {
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.form.subscribe ::placeholder {
+    color: #fff;
+}
 /* HERO-end */
 
 /* MAIN-start */
