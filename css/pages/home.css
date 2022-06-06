@@ -84,6 +84,8 @@ section.bg-main {
 .section-description > a:hover {
     text-decoration: underline;
 }
+
+
 /* MAIN-end */
 
 /* FOOTER-start */
@@ -164,3 +166,22 @@ footer.container {
 }
 
 /* FOOTER-end */
+
+@media (max-width: 700px) {
+    .main-content {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .column {
+        width: 100%;
+    }
+    .right-column {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1100px) {
+    .form > input {
+        width: calc(50% - 10px);
+    }
+}
